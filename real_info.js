@@ -128,7 +128,7 @@ function onRequest(req, res) {
 
 function init(stnNames) {
     stationNames = JSON.parse(stnNames);
-    server(3000, onRequest);
+    server(22, onRequest);
 }
 
 getStationNames(init);
